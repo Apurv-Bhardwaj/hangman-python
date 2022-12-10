@@ -8,9 +8,9 @@ game=="hangman":
     nchar = 0
     for char in ip:  # this for loop calculates the number of characters in the word
         nchar = nchar + 1
-    print("The word has", nchar, " characters")
+        print("The word has", nchar, " characters")
 
-    print("Guess the characters")  # the guessing game starts here
+        print("Guess the characters")  # the guessing game starts here
 
     guesses = ''  # all the guesses are stored here
     chances = 12  # any number of turns can be used here
